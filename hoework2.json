@@ -1,0 +1,53 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "homework questions",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "EveryThingIntent",
+                    "slots": [
+                        {
+                            "name": "EveryThingSlot",
+                            "type": "BAG_OF_WORDS"
+                        }
+                    ],
+                    "samples": [
+                        "{EveryThingSlot}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "BAG_OF_WORDS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Hello World"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
